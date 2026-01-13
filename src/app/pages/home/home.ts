@@ -6,10 +6,11 @@ import { MenuBar } from "../../components/menu-bar/menu-bar";
 
 @Component({
   selector: 'app-home',
-  imports: [MenuTitle, BigCard, SmallCard, MenuBar],
+  imports: [MenuTitle, BigCard, SmallCard],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
 export class Home {
+
 
 }
